@@ -1,6 +1,6 @@
 ### Set Up
 
-To get started, fork this repo and open a pull request back to this repo.
+To get started, fork this repo.
 Then clone the forked repo to begin work on your machine.
 Once that is complete, cd into ‘summing-grid’ and run yarn install and then yarn start. The app should start running on http://localhost:3000.
 
@@ -28,4 +28,4 @@ Add some unit tests (you may want to install additional node modules).
 
 ### Submission
 
-When you are done, make sure your code is committed and pushed to the forked repo on github.com and let us know.
+When you are done, make sure your code is committed and pushed to your forked repo on github.com. Then open a pull request back into our repo and let us know.
