@@ -1,6 +1,8 @@
 ### Set Up
 
-To get started, clone this repo. Once that is complete, cd into ‘summing-grid’ and run yarn install and then yarn start. The app should start running on http://localhost:3000.
+To get started, fork this repo and open a pull request back to this repo.
+Then clone the forked repo to begin work on your machine.
+Once that is complete, cd into ‘summing-grid’ and run yarn install and then yarn start. The app should start running on http://localhost:3000.
 
 Your task will be to create a 1x4 flexible grid. The first 3 spaces in the grid should contain input fields that accept numbers. The 4th space in the grid will display the sum of the numbers in the first 3 spaces.
 
@@ -22,3 +24,8 @@ The first 3 input fields should each accept a number. Then write code which sums
 Add validation to the input fields to ensure that the entered values are numbers. Also ensure that entering non-number values does not break the other functionality or cause any errors.
 
 Add some unit tests (you may want to install additional node modules).
+
+
+### Submission
+
+When you are done, make sure your code is committed and pushed to the forked repo on github.com and let us know.
