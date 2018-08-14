@@ -14,7 +14,6 @@ export default (props: any) => {
     <div className="number-input">
         <TextField
           label={input.get('text')}
-          name={input.get('id')}
           fullWidth
           value={input.get('value')}
           onChange={handleChange}
