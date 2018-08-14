@@ -2,10 +2,9 @@ import * as React from 'react';
 import { Provider } from 'react-redux';
 import * as ReactDOM from 'react-dom';
 import { mount, ReactWrapper } from "enzyme";
-import * as Adapter from 'enzyme-adapter-react-16';
 import AppContainer from './App';
 import rootReducer from '../reducers';
-import { createStore, applyMiddleware } from 'redux';
+import { createStore } from 'redux';
 import { SumOutputContainer } from './SumOutput/SumOutput.Container';
 import { NumberInputContainer } from './NumberInput/NumberInput.Container';
 
