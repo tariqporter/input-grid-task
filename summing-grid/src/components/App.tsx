@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { CssBaseline, Grid } from '@material-ui/core';
 import NumberInput from './NumberInput/NumberInput.Container';
 import SumOutput from './SumOutput/SumOutput.Container';
+import './App.css';
 
 export const App = (props: any) => {
   const { inputs } = props;
@@ -10,7 +11,7 @@ export const App = (props: any) => {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Grid container>
+      <Grid container className="app">
         { inputs.map((input: any) => (
           <Grid item xs={12} sm={6} md={3} key={input.get('id')}>
             <NumberInput input={input} />
